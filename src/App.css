@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./assets/fonts/Toyota-Type.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CustomFont', sans-serif;
+}
+
+.triangle {
+  width: 16px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%,100% 0,100% 100%);
+  background: white;
+}
